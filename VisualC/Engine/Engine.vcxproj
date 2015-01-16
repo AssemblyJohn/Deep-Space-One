@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Engine\AABB.cpp" />
+    <ClCompile Include="..\..\src\Engine\Allocator.cpp" />
+    <ClCompile Include="..\..\src\Engine\Application.cpp" />
+    <ClCompile Include="..\..\src\Engine\Camera.cpp" />
+    <ClCompile Include="..\..\src\Engine\Class.cpp" />
+    <ClCompile Include="..\..\src\Engine\Color.cpp" />
+    <ClCompile Include="..\..\src\Engine\Component.cpp" />
+    <ClCompile Include="..\..\src\Engine\Config.cpp" />
+    <ClCompile Include="..\..\src\Engine\DeepSpaceOne.cpp" />
+    <ClCompile Include="..\..\src\Engine\DriverOgl.cpp" />
+    <ClCompile Include="..\..\src\Engine\Entity.cpp" />
+    <ClCompile Include="..\..\src\Engine\Game.cpp" />
+    <ClCompile Include="..\..\src\Engine\glinclude.cpp" />
+    <ClCompile Include="..\..\src\Engine\HUD.cpp" />
+    <ClCompile Include="..\..\src\Engine\Importer.cpp" />
+    <ClCompile Include="..\..\src\Engine\Input.cpp" />
+    <ClCompile Include="..\..\src\Engine\Math.cpp" />
+    <ClCompile Include="..\..\src\Engine\Matrix.cpp" />
+    <ClCompile Include="..\..\src\Engine\Memory.cpp" />
+    <ClCompile Include="..\..\src\Engine\Mesh.cpp" />
+    <ClCompile Include="..\..\src\Engine\Model.cpp" />
+    <ClCompile Include="..\..\src\Engine\ModelManager.cpp" />
+    <ClCompile Include="..\..\src\Engine\Physics.cpp" />
+    <ClCompile Include="..\..\src\Engine\PhysicsEngine.cpp" />
+    <ClCompile Include="..\..\src\Engine\Profiler.cpp" />
+    <ClCompile Include="..\..\src\Engine\Renderer.cpp" />
+    <ClCompile Include="..\..\src\Engine\RenderingThread.cpp" />
+    <ClCompile Include="..\..\src\Engine\Script.cpp" />
+    <ClCompile Include="..\..\src\Engine\ShaderUtils.cpp" />
+    <ClCompile Include="..\..\src\Engine\Sound.cpp" />
+    <ClCompile Include="..\..\src\Engine\String.cpp" />
+    <ClCompile Include="..\..\src\Engine\Texture.cpp" />
+    <ClCompile Include="..\..\src\Engine\Threading.cpp" />
+    <ClCompile Include="..\..\src\Engine\Timing.cpp" />
+    <ClCompile Include="..\..\src\Engine\Video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Engine\AABB.h" />
+    <ClInclude Include="..\..\src\Engine\Allocator.h" />
+    <ClInclude Include="..\..\src\Engine\Application.h" />
+    <ClInclude Include="..\..\src\Engine\Camera.h" />
+    <ClInclude Include="..\..\src\Engine\CameraScript.h" />
+    <ClInclude Include="..\..\src\Engine\Class.h" />
+    <ClInclude Include="..\..\src\Engine\Color.h" />
+    <ClInclude Include="..\..\src\Engine\Component.h" />
+    <ClInclude Include="..\..\src\Engine\Config.h" />
+    <ClInclude Include="..\..\src\Engine\DriverOgl.h" />
+    <ClInclude Include="..\..\src\Engine\Edge.h" />
+    <ClInclude Include="..\..\src\Engine\Entity.h" />
+    <ClInclude Include="..\..\src\Engine\Game.h" />
+    <ClInclude Include="..\..\src\Engine\glinclude.h" />
+    <ClInclude Include="..\..\src\Engine\HUD.h" />
+    <ClInclude Include="..\..\src\Engine\Importer.h" />
+    <ClInclude Include="..\..\src\Engine\Input.h" />
+    <ClInclude Include="..\..\src\Engine\List.h" />
+    <ClInclude Include="..\..\src\Engine\Loader.h" />
+    <ClInclude Include="..\..\src\Engine\Map.h" />
+    <ClInclude Include="..\..\src\Engine\Math.h" />
+    <ClInclude Include="..\..\src\Engine\Matrix.h" />
+    <ClInclude Include="..\..\src\Engine\Memory.h" />
+    <ClInclude Include="..\..\src\Engine\Mesh.h" />
+    <ClInclude Include="..\..\src\Engine\Model.h" />
+    <ClInclude Include="..\..\src\Engine\ModelManager.h" />
+    <ClInclude Include="..\..\src\Engine\MtRandom.h" />
+    <ClInclude Include="..\..\src\Engine\OpenGLCache.h" />
+    <ClInclude Include="..\..\src\Engine\OpenGLContext.h" />
+    <ClInclude Include="..\..\src\Engine\Physics.h" />
+    <ClInclude Include="..\..\src\Engine\PhysicsEngine.h" />
+    <ClInclude Include="..\..\src\Engine\Profiler.h" />
+    <ClInclude Include="..\..\src\Engine\Program.h" />
+    <ClInclude Include="..\..\src\Engine\ReferenceCounting.h" />
+    <ClInclude Include="..\..\src\Engine\RenderEntity.h" />
+    <ClInclude Include="..\..\src\Engine\Renderer.h" />
+    <ClInclude Include="..\..\src\Engine\RenderingCore.h" />
+    <ClInclude Include="..\..\src\Engine\RenderingThread.h" />
+    <ClInclude Include="..\..\src\Engine\OpenGLResource.h" />
+    <ClInclude Include="..\..\src\Engine\Scalar.h" />
+    <ClInclude Include="..\..\src\Engine\Scene.h" />
+    <ClInclude Include="..\..\src\Engine\SceneLoader.h" />
+    <ClInclude Include="..\..\src\Engine\Script.h" />
+    <ClInclude Include="..\..\src\Engine\ScriptController.h" />
+    <ClInclude Include="..\..\src\Engine\ShaderProgram.h" />
+    <ClInclude Include="..\..\src\Engine\ShaderBase.h" />
+    <ClInclude Include="..\..\src\Engine\ShaderCompiler.h" />
+    <ClInclude Include="..\..\src\Engine\ShaderInput.h" />
+    <ClInclude Include="..\..\src\Engine\ShaderUtils.h" />
+    <ClInclude Include="..\..\src\Engine\ShipScript.h" />
+    <ClInclude Include="..\..\src\Engine\Sound.h" />
+    <ClInclude Include="..\..\src\Engine\std.h" />
+    <ClInclude Include="..\..\src\Engine\String.h" />
+    <ClInclude Include="..\..\src\Engine\Texture.h" />
+    <ClInclude Include="..\..\src\Engine\Threading.h" />
+    <ClInclude Include="..\..\src\Engine\Timing.h" />
+    <ClInclude Include="..\..\src\Engine\types.h" />
+    <ClInclude Include="..\..\src\Engine\Vector.h" />
+    <ClInclude Include="..\..\src\Engine\Video.h" />
+    <ClInclude Include="..\..\thirdparty\OpenGL\glext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\media\Shaders\occlusion.glsl.fs" />
+    <None Include="..\..\media\Shaders\occlusion.glsl.vs" />
+    <None Include="..\..\media\Shaders\textured1.glsl.fs" />
+    <None Include="..\..\media\Shaders\textured1.glsl.vs" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{624A0B2A-6C46-40DE-B02C-9D73C50E18AD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v90</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v90</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>..\..\thirdparty\BulletPhysics;..\..\thirdparty\SDL2;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <SourcePath>..\..\src\Engine;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>..\..\unused\$(PlatformName)\$(Configuration)\intermediate\</IntDir>
+    <LibraryPath>..\..\thirdparty\BulletPhysics;..\..\thirdparty\SDL2;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;EN_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\BulletPhysics\include;..\..\thirdparty\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;BulletDynamics_vs2010.lib;BulletCollision_vs2010.lib;LinearMath_vs2010.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL_image.lib;SDL_mixer.lib;BulletDynamics_vs2010_debug.lib;BulletCollision_vs2010_debug.lib;LinearMath_vs2010_debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\thirdparty\BulletPhysics;..\..\thirdparty\SDL2;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)Engine.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\BulletPhysics\include;..\..\thirdparty\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;BulletDynamics_vs2010.lib;BulletCollision_vs2010.lib;LinearMath_vs2010.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

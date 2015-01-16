@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{50d18789-9063-4acc-9b29-6ad183edb3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commons">
+      <UniqueIdentifier>{39d0d569-247b-4b5b-bc0e-695f9b822723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8431577b-e05c-4265-9932-fe2947dfd581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Importer">
+      <UniqueIdentifier>{44509d23-e44c-400a-8e16-1b4fa3adcbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{059881b5-293a-42c1-8234-dd947bca810e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{7814844d-5bb3-44ef-9dab-ea137834ef43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{ae84876d-779d-438b-bee4-02fbb3cfb69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Bounds">
+      <UniqueIdentifier>{9a9ceb1e-1e44-4071-817d-b729d7fb15d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Memory">
+      <UniqueIdentifier>{df842acb-ff31-4dd1-bbb0-ac38e9b9b3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Threading">
+      <UniqueIdentifier>{b33404c3-903d-477d-a255-aeec74f269ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Component">
+      <UniqueIdentifier>{e153cbc5-7ef1-4c03-a0ab-9d6efd967801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameSys">
+      <UniqueIdentifier>{5631304b-35e7-4bfe-82ac-3a9bc8a17007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Physics">
+      <UniqueIdentifier>{bf5b3112-2ab8-4394-b0d5-805740cd73c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Component\Implement">
+      <UniqueIdentifier>{7329f51a-611a-471e-8314-2f255563400d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeepSpaceOne">
+      <UniqueIdentifier>{6419ed6a-2f77-4b64-8244-9361182e942e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeepSpaceOne\Scripts">
+      <UniqueIdentifier>{9baa4365-256a-478a-8ce8-faf6019d1e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeepSpaceOne\Loader">
+      <UniqueIdentifier>{80de4bf4-59b7-40b5-89b2-813f450fa0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commons\Template">
+      <UniqueIdentifier>{80615eef-a9a1-440c-b531-3322b89ca91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commons\Template\Container">
+      <UniqueIdentifier>{f097f153-3804-441f-94b9-3078059a09b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore">
+      <UniqueIdentifier>{d64425e1-8e02-4c19-8992-e1c20999967b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\HUD">
+      <UniqueIdentifier>{8e72be5a-378b-421d-bc8b-7c35db0c5c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\OpenGL">
+      <UniqueIdentifier>{faf8f2f3-3084-4ff8-ab8d-cafc5fb44546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\OpenGL\Shaders">
+      <UniqueIdentifier>{b3ea2a8f-4f6a-4503-bfee-6651586d0e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\OpenGL\Program">
+      <UniqueIdentifier>{e3dbe964-6144-4e7d-9025-c0559cc0e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{24fdb9db-123d-4cc1-9b7d-a415db421869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\OpenGL\Header">
+      <UniqueIdentifier>{f1cb2100-f5ea-4297-a516-1a83433945db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RendererCore\OpenGL\Shaders\TODO%28change%29">
+      <UniqueIdentifier>{c8261dad-a117-413e-bf54-f6b47432e89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Utils">
+      <UniqueIdentifier>{41abccba-448a-48dc-9f80-2d63fa4e07da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Engine\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Profiler.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Timing.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\DriverOgl.cpp">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\glinclude.cpp">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\HUD.cpp">
+      <Filter>RendererCore\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Model.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Mesh.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\ModelManager.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Renderer.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Texture.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\AABB.cpp">
+      <Filter>Math\Bounds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Color.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Allocator.cpp">
+      <Filter>System\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Memory.cpp">
+      <Filter>System\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Threading.cpp">
+      <Filter>System\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Config.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Video.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\PhysicsEngine.cpp">
+      <Filter>Game\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Class.cpp">
+      <Filter>Game\GameSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Component.cpp">
+      <Filter>Game\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Physics.cpp">
+      <Filter>Game\Component\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Script.cpp">
+      <Filter>Game\Component\Implement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Entity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Importer.cpp">
+      <Filter>Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\DeepSpaceOne.cpp">
+      <Filter>DeepSpaceOne</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\String.cpp">
+      <Filter>Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\ShaderUtils.cpp">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\RenderingThread.cpp">
+      <Filter>RendererCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Engine\std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\List.h">
+      <Filter>Commons\Template\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Map.h">
+      <Filter>Commons\Template\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Profiler.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\String.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\types.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Timing.h">
+      <Filter>Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\DriverOgl.h">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\glinclude.h">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\HUD.h">
+      <Filter>RendererCore\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Mesh.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Model.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ModelManager.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Texture.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Renderer.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\AABB.h">
+      <Filter>Math\Bounds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Color.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Scalar.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Allocator.h">
+      <Filter>System\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Memory.h">
+      <Filter>System\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Threading.h">
+      <Filter>System\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Video.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Config.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Input.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\PhysicsEngine.h">
+      <Filter>Game\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Class.h">
+      <Filter>Game\GameSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Component.h">
+      <Filter>Game\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Physics.h">
+      <Filter>Game\Component\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Script.h">
+      <Filter>Game\Component\Implement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Importer.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Edge.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Loader.h">
+      <Filter>Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\CameraScript.h">
+      <Filter>DeepSpaceOne\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\SceneLoader.h">
+      <Filter>DeepSpaceOne\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Program.h">
+      <Filter>RendererCore\OpenGL\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShipScript.h">
+      <Filter>DeepSpaceOne\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShaderUtils.h">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ReferenceCounting.h">
+      <Filter>Commons\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\OpenGL\glext.h">
+      <Filter>RendererCore\OpenGL\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShaderInput.h">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShaderCompiler.h">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShaderBase.h">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\OpenGLContext.h">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\OpenGLCache.h">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\RenderingCore.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\RenderingThread.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\OpenGLResource.h">
+      <Filter>RendererCore\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ShaderProgram.h">
+      <Filter>RendererCore\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Scene.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\RenderEntity.h">
+      <Filter>RendererCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\MtRandom.h">
+      <Filter>Math\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\ScriptController.h">
+      <Filter>DeepSpaceOne\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\media\Shaders\textured1.glsl.vs">
+      <Filter>RendererCore\OpenGL\Shaders\TODO%28change%29</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\textured1.glsl.fs">
+      <Filter>RendererCore\OpenGL\Shaders\TODO%28change%29</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\occlusion.glsl.vs">
+      <Filter>RendererCore\OpenGL\Shaders\TODO%28change%29</Filter>
+    </None>
+    <None Include="..\..\media\Shaders\occlusion.glsl.fs">
+      <Filter>RendererCore\OpenGL\Shaders\TODO%28change%29</Filter>
+    </None>
+  </ItemGroup>
+</Project>
