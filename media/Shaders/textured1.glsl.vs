@@ -17,12 +17,25 @@ attribute vec2 att_uv;
 
 uniform mat4 uni_mv;
 uniform mat4 uni_proj;
+uniform vec3 light_pos = vec3(0, 0, 0);
 
 varying vec2 textureCoord;
 
+varying vec3 N;
+varying vec3 L;
+varying vec3 V;
+
 void main(void)
-{
-	textureCoord = vec2(att_uv.x, 1.0f - att_uv.y); // Mirror
-	
-    gl_Position = uni_proj * uni_mv * att_vertex;
+{	
+	// Better float precision in view space
+    vec4 P = uni_mv * att_vertex;
+
+    N = mat3(uni_mv) * att_normal;
+    L = light_pos - P.xyz;
+    V = -P.xyz;
+
+	// Mirror
+	textureCoord = vec2(att_uv.x, 1.0f - att_uv.y);
+
+    gl_Position = uni_proj * P;
 }

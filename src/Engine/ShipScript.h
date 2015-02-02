@@ -104,7 +104,7 @@ void enShipScript::Step()
 
 	if (apply)
 	{
-		ship->ApplyCentralForce(force);
+		ship->ApplyCentralForce(force * 10);
 	}
 
 	if (listener->InputPressed(EN_MOUSE_SCROLL_DOWN))

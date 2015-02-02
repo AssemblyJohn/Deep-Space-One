@@ -156,7 +156,7 @@ void LoadAll(enGame *game)
 
 			// Sets the asteroid towards the earth. Save it!
 			bigasteroid->SetAngularVelocity(enVector3(0.3, 0.2f, 0.3f));
-			bigasteroid->ApplyCentralForce(enVector3(250.0f, 0, 0) * 100000);
+			bigasteroid->ApplyCentralForce(enVector3(250.0f, 0, 0) * 50000);
 
 			enPhysics *p = AddComponentSphere(172.103f, enVector3(0, 0, 300.0f), 10000);
 			AddComponentToEntities("earth", p);

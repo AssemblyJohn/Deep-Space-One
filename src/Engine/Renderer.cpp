@@ -125,7 +125,7 @@ void enRenderer::RenderMesh(const enMesh &mesh, const enCamera &camera, const en
 	glUseProgram(program.program);
 
 	glEnableVertexAttribArray(program.attributeVertex);
-	//glEnableVertexAttribArray(program.attributeNormal);
+	glEnableVertexAttribArray(program.attributeNormal);
 	glEnableVertexAttribArray(program.attributeUv);
 
 	glBindBuffer(GL_ARRAY_BUFFER, data.handleVertex);
@@ -135,14 +135,14 @@ void enRenderer::RenderMesh(const enMesh &mesh, const enCamera &camera, const en
 		GL_FLOAT, false,
 		enMesh::VERTEX_STRIDE, NULL);
 	
-		/*
+		
 	glBindBuffer(GL_ARRAY_BUFFER, data.handleNormal);
 	glVertexAttribPointer(
 		program.attributeNormal,
 		enMesh::NORMAL_COORDS,
 		GL_FLOAT, false,
 		enMesh::NORMAL_STRIDE, NULL);
-		*/
+		
 		
 	glBindBuffer(GL_ARRAY_BUFFER, data.handleUv);
 	glVertexAttribPointer(
@@ -165,7 +165,7 @@ void enRenderer::RenderMesh(const enMesh &mesh, const enCamera &camera, const en
 	glDrawArrays(GL_TRIANGLES, 0, data.vertexCount);	
 
 	glDisableVertexAttribArray(program.attributeVertex);
-	//glDisableVertexAttribArray(program.attributeNormal);
+	glDisableVertexAttribArray(program.attributeNormal);
 	glDisableVertexAttribArray(program.attributeUv);
 
 	glUseProgram(0);
