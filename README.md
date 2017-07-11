@@ -1,2 +1,2 @@
 # Deep-Space-One
-A 3D C++ game powered by Tritranium engine
+A 3D C++ demo powered by Tritranium engine
